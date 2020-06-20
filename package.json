@@ -1,0 +1,41 @@
+{
+    "name": "tools-accessibility",
+    "version": "1.0.0",
+    "description": "Tools Accessibility foi criada pensando em atender e incluir no mundo digital de forma dinâmica e prática, pessoas com deficiência física.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "grunt watch",
+        "test:core": "grunt",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MateusVeloso/Tools-Accessibility.git"
+    },
+    "keywords": [
+        "accessibility",
+        "acessibilidade",
+        "deficiencia",
+        "lib",
+        "biblioteca"
+    ],
+    "author": "Mateus Veloso <mateusveloso.developer@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MateusVeloso/Tools-Accessibility/issues"
+    },
+    "homepage": "https://github.com/MateusVeloso/Tools-Accessibility#readme",
+    "devDependencies": {
+        "grunt": "^1.1.0",
+        "grunt-contrib-coffee": "^2.1.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-cssmin": "^3.0.0",
+        "grunt-contrib-jshint": "^2.1.0",
+        "grunt-contrib-qunit": "^4.0.0",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-uglify": "^4.0.1",
+        "grunt-contrib-watch": "^1.1.0",
+        "qunity": "^1.0.0"
+    },
+    "dependencies": {}
+}
